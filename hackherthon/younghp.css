@@ -1,0 +1,53 @@
+body{
+    background-image: url("younghpbg.jpg") ;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    position: fixed;
+    margin-left: 350px;
+    margin-top: -370px;
+    font-size: 50px;
+    font-family: cursive;
+    text-decoration: wavy;
+}
+.b1{
+    margin-top: 430px;
+    margin-left: 60px;
+    font-size: 90px;
+    transform: rotate(7deg);
+    transform-origin: bottom left;
+}
+.b2{
+margin-top: -260px;
+margin-left: 700px ;
+font-size: 110px;
+}
+.b3{
+    margin-top: 80px;
+    margin-left: 1080px;
+    font-size: 60px;
+}
+.animated-header {
+    text-align: center;
+    animation-name: slideIn;
+    animation-duration: 1s;
+
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+
+
